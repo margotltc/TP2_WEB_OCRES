@@ -9,6 +9,13 @@
     font-family: 'My Lucida', Console;
 }
 
+.container {
+    /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
 }
