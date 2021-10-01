@@ -11,6 +11,7 @@
 
 .container {
     /* or inline-flex */
+    display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
@@ -26,6 +27,9 @@ a {
 }
 
 .wrapper {
+    display:flex;
+    justify-content: center;
+    width:100%;
     padding: 25px 0;
 }
 
@@ -38,9 +42,18 @@ body > header {
 header .logo-search form  {
     width: 50%;
 }
+header .logo-search{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 header .user {
-    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 header .user a {
@@ -106,6 +119,20 @@ h1 {
     margin-left: 12px;
 }
 
+.name_photo{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
+
+.top_album{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
 
 .stats-links {
     color: #4b5c66;
@@ -126,7 +153,7 @@ h1 {
 .stats-links a {
     font-size: 12px;
     font-weight: normal;
-    color: #4b5c66;
+    color: #4b5c66;   
 }
 
 h2 {
