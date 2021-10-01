@@ -57,7 +57,7 @@ header .user {
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 0.8em;
     color: #89949b;
     padding-top: 5px;
 }
@@ -74,7 +74,7 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.8rem;
     font-weight: normal;
     margin-bottom: 10px;
 }
@@ -135,6 +135,7 @@ h1 {
 }
 
 .stats-links {
+    display:flex;
     color: #4b5c66;
     font-size: 12px;
     padding: 15px 0px 10px 0px;
@@ -151,7 +152,7 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 0.8rem;
     font-weight: normal;
     color: #4b5c66;   
 }
